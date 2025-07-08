@@ -31,6 +31,7 @@ import java.util.*;
         int largestElement = largestElement(nums);
         System.out.println("Largest element in this array is : ");
         System.out.println(largestElement);
+        sc.close();
         
         
     }
