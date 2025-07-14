@@ -22,15 +22,12 @@ public class RomanToInteger {
 
         for(int i=s.length()-2;i>=0;i--){
             if(hm.get(s.charAt(i))<hm.get(s.charAt(i+1))){
-            result=result-hm.get(s.charAt(i));
+                result=result-hm.get(s.charAt(i));
+            }
+            else{
+                result = result+hm.get(s.charAt(i));
+            }
         }
-        else{
-            result = result+hm.get(s.charAt(i));
-        }
-        
-
+        return result;
     }
-    return result;
-}
-    
 }
