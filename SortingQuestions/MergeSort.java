@@ -50,8 +50,9 @@ class Solution {
 public class MergeSort {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        int n = 7;
-        int arr[] = { 9, 4, 7, 6, 3, 1, 5 };
+        
+        int arr[] = { 2,0,2,1,1,0};
+        int n = arr.length;
         System.out.println("Before sorting array: ");
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
